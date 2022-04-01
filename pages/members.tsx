@@ -1,9 +1,16 @@
+import { Container } from 'reactstrap';
+
+
 function Members() {
     return <div>
         <br/>
         <br/>
         <br/>
-        Members
+        <Container>
+            <div>
+                This is the members page.
+            </div>
+            </Container>
     </div>
   }
   
